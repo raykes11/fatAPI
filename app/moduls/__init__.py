@@ -1,2 +1,2 @@
-from app.moduls.user import User
-from app.moduls.task import Task
+from .user import User
+from .task import Task

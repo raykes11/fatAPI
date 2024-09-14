@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from app.backend.db import Base
+from backend.db import Base
 from sqlalchemy import Column,Integer,String,Boolean,ForeignKey
 from sqlalchemy.orm import relationship
 from sqlalchemy.schema import CreateTable
